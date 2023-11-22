@@ -1,0 +1,31 @@
+Before installing anything on your computer, make sure you have node installed.
+
+
+
+Backend--------
+
+to run the app:
+npm run dev
+
+Dependencies:
+npm init -y
+npm install express
+npm install -g nodemon
+
+// its detecting the change and rerun the file.
+nodemon server.js
+
+//to install .env file into the project
+npm install dotenv
+
+npm install mongoose
+
+
+
+Frontend--------
+
+to run:
+npm start
+
+npx create-react-app frontend
+npm install react-router-dom
